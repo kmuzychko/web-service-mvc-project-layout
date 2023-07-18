@@ -1,0 +1,5 @@
+# `/routers`
+
+---
+
+Application routers package.
