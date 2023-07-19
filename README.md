@@ -1,6 +1,8 @@
 
 # Web Service MVC project layout
 
+> If you are looking for Domain Driven Design project layout please look [here](https://github.com/Imelstorm/web-service-ddd-project-layout)
+
 This repository presents a suggested project structure for developing web applications using frameworks with flexible structure e.g. FastaPI, Flask in Python or Express, and Fastify in Javascript/Typescript, it also can be used with Chi in Go, but with some modifications due to [Golang Project Layout](https://github.com/golang-standards/project-layout) recommendations. It offers a well-organized folder structure that is particularly recommended for medium to big size projects, where handling and ordering the application logic becomes crucial. By adopting this structure, developers can benefit from a modular and scalable architecture that promotes code reusability, maintainability, and collaboration among team members.
 
 The proposed project structure follows the Model-View-Controller (MVC) design pattern, which promotes a clear separation of concerns.  This separation lets developers easily navigate and modify specific application components, facilitating teamwork and reducing code conflicts.
@@ -29,11 +31,11 @@ Main project package. Contains project essential packages
 
 All API documentation related files
 
-`/assets`
+`/assets` (optional)
 
 Project related assets e.g. templates, images, etc.
 
-`/clients`
+`/clients` (optional)
 
 Project specific API clients for third party APIs.
 
